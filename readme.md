@@ -59,6 +59,8 @@ export default class App extends React.Component {
 | **cropHeight(required)** | number | operating area height | 100 |
 | **imageWidth(required)** | number | picture width | 100 |
 | **imageHeight(required)** | number | picture height | 100 |
+| imageMinScale | number | min zoomin scale | 1 |
+| imageMaxScale | number | max zoomin scale | 10 |
 | onClick | ()=>void | onClick | ()=>{} |
 | panToMove | boolean | allow to move picture with one finger | true |
 | pinchToZoom | boolean | allow scale with two fingers | true |
